@@ -1,0 +1,127 @@
+body,
+html {
+  margin: 0;
+  background-color: #c21717;
+  overflow: hidden;
+}
+
+.app {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+.puzzle {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 126px;
+}
+
+.header {
+  font-size: 100px;
+  background-color: #3c8d0d;
+  border-bottom: 5px solid #fff2f0;
+}
+
+.score {
+  color: #bfe463;
+}
+
+.hero {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cast {
+  background-color: #fff2f0;
+  padding: 30px;
+}
+
+.cast-member {
+  font-size: 50px;
+  padding: 25px;
+  color: #eb3232;
+}
+
+.answer {
+  margin-top: -50px;
+}
+
+.title {
+  color: #fff2f0;
+  padding: 10px;
+  font-size: 60px;
+}
+
+.poster {
+  margin-top: 30px;
+}
+
+.poster img {
+  border: 5px solid #fff2f0;
+}
+
+.footer {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.hearts {
+  position: fixed;
+  right: 25px;
+  margin-top: 25px;
+  color: #bfe463;
+  font-size: 70px;
+}
+
+.round {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  color: #fff2f0;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.end-game {
+  margin-top: 100px;
+}
+
+.intro-smiley {
+  font-size: 126px;
+  position: absolute;
+  /* Start off screen*/
+  left: -100px;
+  top: -200px;
+}
+
+.intro-container {
+  margin-top: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #fff2f0;
+}
+
+.intro-text {
+  font-size: 50px;
+}
+
+.quiz-title {
+  font-size: 126px;
+  color: #eb3232;
+  border: 5px solid white;
+  background-color: white;
+  padding: 10px;
+  font-weight: bolder;
+  border-radius: 25px;
+  position: static;
+}
+
+.no-more-hints {
+  padding: 5px;
+}
+
+.credit {
+  padding: 20px;
+  font-size: 50px;
+}
