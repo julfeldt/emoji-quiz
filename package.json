@@ -5,8 +5,9 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.17",
-    "stringz": "^0.2.3"
+    "react-scripts": "^2.0.4",
+    "stringz": "^0.2.3",
+    "ajv": "^6.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -15,5 +16,11 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build && cd build && mv index.html 200.html && surge . --domain emoji-quiz.surge.sh"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
