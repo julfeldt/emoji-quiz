@@ -6,7 +6,7 @@
     "ajv": "^6.0.0",
     "merge": ">=1.2.1",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react-dom": "~>16.0.0",
     "react-scripts": "^3.0.1",
     "stringz": "^0.2.3"
   },
