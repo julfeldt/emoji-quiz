@@ -43,7 +43,7 @@ class Puzzle extends Component {
           <div className="title">{title}</div>
           <div className="poster">
             <img
-              src={`images/${this.props.movie.imdb}`}
+              src={`images/2/${this.props.movie.imdb}`}
               height="500px"
               width="320px"
               alt={title}
@@ -63,7 +63,7 @@ class Puzzle extends Component {
         <div className="cast hero cast-member">
           Ikke flere emojis
           <span role="img" aria-label="emoji" className="no-more-hints">
-            😕
+            🤔
           </span>
         </div>
       );
@@ -114,6 +114,12 @@ class Puzzle extends Component {
           showAnswer: true
         });
         this.props.changeHearts(HEARTS_NONE);
+      }
+      else if (e.keyCode === 79) {
+        if (this.props.previous()) {
+          this.setState({ clue: 1, showCast: false, showAnswer: false });
+          this.props.changeHearts(HEARTS_MAX);
+        }
       } else if (e.keyCode === 80) {
         // Go to next round
         if (this.props.next()) {

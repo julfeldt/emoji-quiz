@@ -3,7 +3,7 @@ import "./App.css";
 import Scoreboard from "./components/Scoreboard";
 import Puzzle from "./components/Puzzle";
 import Intro from "./components/Intro";
-import movies from "./movies.js";
+import movies from "./2/movies.js";
 
 class App extends Component {
   constructor() {
@@ -16,6 +16,17 @@ class App extends Component {
       endGame: false,
       intro: true
     };
+  }
+
+  previousPuzzle() {
+    const { round } = this.state;
+    if (round > 0) {
+      this.setState({
+        round: round -1
+      });
+      return true;
+    }
+    return false;
   }
 
   nextPuzzle() {
@@ -89,13 +100,14 @@ class App extends Component {
         <Puzzle
           movie={this.state.movies[this.state.round]}
           next={this.nextPuzzle.bind(this)}
+          previous={this.previousPuzzle.bind(this)}
           increaseScore={this.increaseScore.bind(this)}
           decreaseScore={this.decreaseScore.bind(this)}
           changeHearts={this.changeHearts.bind(this)}
           addScore={this.addCurrentHeartsAsScore.bind(this)}
           endGame={this.endGame.bind(this)}
         />
-        <div className="round">#{this.state.round + 1}</div>
+        <div className="round">#{this.state.round + 1}/{this.state.movies.length}</div>
       </div>
     );
   }

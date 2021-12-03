@@ -31,7 +31,7 @@ class Intro extends Component {
             <span role="img" aria-label="emoji">
               🎥
             </span>
-            <span> emoji film quiz </span>
+            <span> emoji film quiz #2 </span>
             <span role="img" aria-label="emoji">
               🍿
             </span>

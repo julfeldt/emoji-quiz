@@ -16,7 +16,14 @@ export const allEmojis = [
   substring("🤗", 0, 1),
   substring("🤣", 0, 1),
   substring("😍", 0, 1),
-  substring("😘", 0, 1)
+  substring("😘", 0, 1),
+  substring("🥳", 0, 1),
+  substring("🥸", 0, 1),
+  substring("🧐", 0, 1),
+  substring("🤔", 0, 1),
+  substring("😷", 0, 1),
+  substring("🤡", 0, 1),
+  substring("💩", 0, 1),
 ];
 const EMOJI_COUNT = allEmojis.length;
 

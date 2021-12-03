@@ -8,6 +8,7 @@ Try it out at https://emoji-quiz.surge.sh/ (Tested on Mac)
 Pres any key to begin, and use the following keys to operate the game:
 
 * SPACE - Show next emoji clue
+* o - Go to previous puzzle
 * p - Go to next puzzle
 * ENTER - Show answer
 * 1 - Team 1 wins the puzzle

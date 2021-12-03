@@ -8,7 +8,7 @@ const movies = [
       substring("🚴‍", 0, 1),
       substring("👽", 0, 1)
     ],
-    cast: ["Steven Spielberg", "Drew Barrymore"],
+    cast: ["Drew barrymore", "Steven Spielberg"],
     answer: "E.T. the Extra-Terrestrial",
     imdb: "et.jpg"
   },
